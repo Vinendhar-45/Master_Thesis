@@ -22,13 +22,16 @@ Here are the installation commands for installing the above libraries:
 sudo apt-get update
 sudo apt-get install python3-opencv python3-pygame
 pip install picamera2 RPi.GPIO
-Clone this repository: https://github.com/Vinendhar-45/Master_Thesis.git
+
+## Clone this repository 
+
+https://github.com/Vinendhar-45/Master_Thesis.git
 
 ## Usage
 
-The script captures the video frames of the conveyor belt and detects edges and lines along its edges.
-Based on the edge detection, deviation detection and the side of the deviation is determined.
-Based on the side of the deviation, the script controls the stepper motor of that side to correct the conveyor belt alignment.
+-The script captures the video frames of the conveyor belt and detects edges and lines along its edges.
+-Based on the edge detection, deviation detection and the side of the deviation is determined.
+-Based on the side of the deviation, the script controls the stepper motor of that side to correct the conveyor belt alignment.
 
 ## License
 
