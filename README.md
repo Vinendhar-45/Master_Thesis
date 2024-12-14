@@ -29,7 +29,7 @@ git clone https://github.com/Vinendhar-45/Master_Thesis.git
 
 ## Usage
 
-- The script captures the video frames of the conveyor belt and detects edges and lines along its edges.
+- The script captures the video frames of the ECS conveyor belt and detects edges and lines along its edges.
 - Based on the edge detection, deviation detection and the side of the deviation is determined.
 - Based on the side of the deviation, the script controls the stepper motor of that side to correct the conveyor belt alignment.
 
