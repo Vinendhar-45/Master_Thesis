@@ -87,7 +87,8 @@ def rotate_motor_left(clockwise=True):
     gpio.output(pulse_pin_left, gpio.LOW)
     time.sleep(0.000000001)
 
-# Define the codec and create VideoWriter object
+# Define the codec and create a VideoWriter object
+#The below two lines of code will record the stream and store it. Comment it if no recording is needed. 
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('output11.avi', fourcc, 5, (1280, 720))
 
