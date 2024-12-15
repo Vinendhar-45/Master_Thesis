@@ -134,7 +134,7 @@ try:
             line_detected(result_image, "left")
             rotate_motor_left(clockwise=True)
         else:
-            line_detected(result_image, "nolines")
+            line_detected(result_image, "nolines") # This case is not possible in real scenarios because the belt deviates to one side at a time and only one edge becomes invisible
                 
         # Draw detected lines
         if lines is not None:
