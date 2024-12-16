@@ -83,9 +83,9 @@ def rotate_motor_right(clockwise=True):
 def rotate_motor_left(clockwise=True):
     gpio.output(direction_pin_left, cw_direction if clockwise else ccw_direction)
     gpio.output(pulse_pin_left, gpio.HIGH)
-    time.sleep(0.000000001)
+    time.sleep(0.000001)
     gpio.output(pulse_pin_left, gpio.LOW)
-    time.sleep(0.000000001)
+    time.sleep(0.000001)
 
 # Define the codec and create a VideoWriter object
 #The below two lines of code will record the stream and store it. Comment it if no recording is needed. 
